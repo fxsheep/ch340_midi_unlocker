@@ -8,8 +8,10 @@ Version: 0x31-0x00
 ```
 Tested on `0x31-0x00`. Continue at your own risk if it's not.  
 
-Then patch SRAM & re-enumerate:
+Then change baud to 31250, patch SRAM & re-enumerate:
 ```
+$ ./util/datamem_write.py 0x12 0x03 0x13 0x40
+ret:  0
 $ ./util/datamem_write.py 0x3e 0x2d 0x24 0xd0
 ret:  0
 $ sudo usbreset 1a86:7523
