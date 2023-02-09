@@ -1,6 +1,8 @@
 # ch340_midi_unlocker
 Turning WCH CH340 into CH345
-## TL;DR: CH340G/T to CH345
+## TL;DR: CH340G/T/C to CH345
+ - **For CH340T, just tie TNOW(Pin17) to GND, as they are the same chip.**  
+
 First, check chip version:
 ```
 $ ./util/read_version.py 
