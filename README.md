@@ -46,4 +46,8 @@ See [doc](https://github.com/fxsheep/ch340_midi_unlocker/tree/main/doc)
  - [WCH CH340 datasheet](https://www.wch.cn/downloads/CH340DS1_PDF.html)
  - [WCH CH345 datasheet](https://www.wch.cn/downloads/CH345DS1_PDF.html)
  - [WCH CH534 datasheet](https://www.wch.cn/downloads/CH534DS0_PDF.html)
+ - [WCH CH531 datasheet](https://www.wch.cn/downloads/CH531DS0_PDF.html)
  - [WCH CH341 Serial driver for Linux](https://www.wch.cn/downloads/CH341SER_LINUX_ZIP.html)
+ - [CH340G ROM, version 2.54](https://github.com/ryancor/WCH340_ROM-Extractor/tree/master/binary_output)
+ - [CH340G ROM, version 2.64](https://github.com/tmbinc/WCH340_ROM-Extractor/tree/tmbinc/add_wch340g/wch340g)
+
