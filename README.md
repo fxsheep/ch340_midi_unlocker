@@ -50,4 +50,5 @@ See [doc](https://github.com/fxsheep/ch340_midi_unlocker/tree/main/doc)
  - [WCH CH341 Serial driver for Linux](https://www.wch.cn/downloads/CH341SER_LINUX_ZIP.html)
  - [CH340G ROM, version 2.54](https://github.com/ryancor/WCH340_ROM-Extractor/tree/master/binary_output)
  - [CH340G ROM, version 2.64](https://github.com/tmbinc/WCH340_ROM-Extractor/tree/tmbinc/add_wch340g/wch340g)
+ - [Silicon images of various decapped WCH chips](https://siliconpr0n.org/map/wch/)
 
