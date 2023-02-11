@@ -31,12 +31,14 @@ Now `TXD` and `RXD` on CH340 has become `MOUT` and `MIN` on CH345.
 
 Note that this patch is not persistent, i.e. it has to be repeated again if CH340 is reset/power-cycled.
 
-## TODO
- - Some fancy scripts allowing easy dumping/reading/writing CH340 data space via debug commands
+## Goals
+ - Some fancy scripts allowing easy dumping/reading/writing CH340 data space via debug commands.
  - Brute-force CH340 data space, sort out definitions of SFRs and variables in SRAM.
- - Toggle UARTs, GPIOs directly via data space access, for fun and pleasure 
+ - Toggle UARTs, GPIOs directly via data space access, for fun and pleasure. 
  - Make a tool that patches SRAM on the fly, which changes VID/PID and make CH340 believe it's CH345, then trigger a USB re-enumeration on the host system.
- - Use return-oriented-programming to execute (partially) arbitrary code on the WCH 8bit RISC CPU in CH340, dump the code ROM and cross check with existing optical ROM extraction results.
+ - ~Use return-oriented-programming to execute (partially) arbitrary code on the WCH 8bit RISC CPU in CH340, dump the code ROM and cross check with existing optical ROM extraction results.~(Impractical?)
+ - Guess instructions and encodings of WCH 8bit RISC in CH34X/CH53X, build a disassembler.
+ - Find a way to reprogram CH340B.
 
 ## Documentation
 See [doc](https://github.com/fxsheep/ch340_midi_unlocker/tree/main/doc)
